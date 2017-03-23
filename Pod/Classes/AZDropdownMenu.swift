@@ -334,6 +334,13 @@ extension AZDropdownMenu: UITableViewDataSource {
             if let config = self.menuConfig {
                 cell.configureStyle(config)
             }
+            
+            if indexPath.row == 6 {
+                cell.textLabel?.textColor = UIColor.lightGray
+                cell.textLabel?.font = UIFont(name: "Avenir Book", size: 15.0)
+                cell.textLabel?.textAlignment = .center
+            }
+            
             cell.configureData(item)
             cell.layoutIfNeeded()
             return cell
