@@ -335,7 +335,7 @@ extension AZDropdownMenu: UITableViewDataSource {
                 cell.configureStyle(config)
             }
             
-            if indexPath.row == 6 {
+            if indexPath.row == 7 {
                 cell.textLabel?.textColor = UIColor.lightGray
                 cell.textLabel?.font = UIFont(name: "Avenir Book", size: 15.0)
                 cell.textLabel?.textAlignment = .center
